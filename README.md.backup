@@ -1,19 +1,29 @@
-# ft_printf
+<h1 class="code-line" data-line-start=0 data-line-end=1 ><a id="ft_printf_0"></a>ft_printf</h1>
+<p class="has-line-data" data-line-start="2" data-line-end="10">Program name                libftprintf.a<br>
+Turn in files               Makefile, *.h, <em>/</em>.h, *.c, <em>/</em>.c<br>
+Makefile                    NAME, all, clean, fclean, re<br>
+External functs.            malloc, free, write,<br>
+va_start, va_arg, va_copy, va_end<br>
+Description                     Write a library that contains ft_printf(), a<br>
+function that will mimic the original printf()<br>
+You have to recode the printf() function from libc.</p>
+<p class="has-line-data" data-line-start="11" data-line-end="13">The prototype of ft_printf() is:<br>
+int ft_printf(const char *, …);</p>
+<p class="has-line-data" data-line-start="14" data-line-end="21">Here are the requirements:<br>
+• Don’t implement the buffer management of the original printf().<br>
+• Your function has to handle the following conversions: cspdiuxX%<br>
+• Your function will be compared against the original printf().<br>
+• You must use the command ar to create your library.<br>
+Using the libtool command is forbidden.<br>
+• Your libftprintf.a has to be created at the root of your repository.</p>
+<p class="has-line-data" data-line-start="22" data-line-end="32">You have to implement the following conversions:<br>
+• %c Prints a single character.<br>
+• %s Prints a string (as defined by the common C convention).<br>
+• %p The void * pointer argument has to be printed in hexadecimal format.<br>
+• %d Prints a decimal (base 10) number.<br>
+• %i Prints an integer in base 10.<br>
+• %u Prints an unsigned decimal (base 10) number.<br>
+• %x Prints a number in hexadecimal (base 16) lowercase format.<br>
+• %X Prints a number in hexadecimal (base 16) uppercase format.<br>
+• %% Prints a percent sign.</p>
 
-Program name 				libftprintf.a
-Turn in files 				Makefile, *.h, */*.h, *.c, */*.c
-Makefile 					NAME, all, clean, fclean, re
-External functs. 			malloc, free, write,
-							va_start, va_arg, va_copy, va_end
-Description 					Write a library that contains ft_printf(), a
-							function that will mimic the original printf()
-				You have to recode the printf() function from libc.
-The prototype of ft_printf() is:
-int ft_printf(const char *, ...);
-Here are the requirements:
-• Don’t implement the buffer management of the original printf().
-• Your function has to handle the following conversions: cspdiuxX%
-• Your function will be compared against the original printf().
-• You must use the command ar to create your library.
-Using the libtool command is forbidden.
-• Your libftprintf.a has to be created at the root of your repository.
