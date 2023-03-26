@@ -1,5 +1,5 @@
-<h1 class="code-line" data-line-start=0 data-line-end=1 ><a id="ft_printf_0"></a>ft_printf</h1>
-<p class="has-line-data" data-line-start="2" data-line-end="10">Program name                libftprintf.a<br>
+# ft_printf
+* Program name                libftprintf.a<br>
 * Turn in files               Makefile, *.h, <em>/</em>.h, *.c, <em>/</em>.c<br>
 * Makefile                    NAME, all, clean, fclean, re<br>
 * External functs.            malloc, free, write,<br>
